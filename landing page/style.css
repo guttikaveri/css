@@ -1,0 +1,129 @@
+/* universal selector  */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  
+  /* navigation style  */
+  .navbar {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  
+  .nav-link ul {
+    display: flex;
+  }
+  
+  .nav-link ul li a {
+    text-decoration: none;
+    margin-left: 20px;
+  }
+  
+  .nav-link ul li a:hover {
+    color: rgb(29, 211, 211);
+  }
+  
+  ul li {
+    list-style-type: none;
+    margin-top: 5px;
+  }
+  
+  .logo h2 {
+    text-transform: uppercase;
+    color: rgb(58, 122, 239);
+  }
+  
+  .btn {
+    border-radius: 10px;
+    padding: 5px 12px;
+    border: none;
+  }
+  
+  .primary {
+    background-color: white;
+    color: rgb(58, 122, 239);
+    border: 1px solid rgb(58, 122, 239);
+  }
+  
+  .primary:hover {
+    color: white;
+    background-color: rgb(58, 122, 239);
+  }
+  
+  .secondary {
+    background-color: rgb(58, 122, 239);
+    color: #fff;
+  }
+  
+  .secondary:hover {
+    background-color: white;
+    color: rgb(58, 122, 239);
+    border: 1px solid rgb(58, 122, 239);
+  }
+  
+  
+  
+  
+  /* herosection styling goes here  */
+  
+  .heroSection {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-left: 85px;
+  }
+  
+  
+  /* left part code  */
+  .partOne h1 {
+    text-transform: uppercase;
+    color: rgb(58, 122, 239);
+    margin-bottom: 30px;
+    font-size: 35px;
+    margin-top: 40px;
+  }
+  .partOne h1 span {
+    color: black;
+  }
+  
+  .partOne p {
+    color: rgb(187, 157, 187);
+    line-height: 22px;
+  }
+  
+  .partOne button {
+    margin-top: 90px;
+    background-color: rgb(58, 122, 239);
+    border-radius: 20px;
+    border: 1px solid rgb(58, 122, 239);
+    color: white;
+    padding: 5px 17px;
+  }
+  
+  .partOne button i {
+    margin-left: 10px;
+  }
+  
+  
+  /* right side image  */
+  .parTwo img {
+    width: 450px;
+    height: 27em;
+    margin-right: 100px;
+  }
+  
+  
+  /* Mobile Media Query  */
+  @media screen {
+  
+  }
+  
+  
+  /* Tablet Media Query  */
+  @media screen {
+  
+  }
