@@ -1,0 +1,18 @@
+<!-- Practice Set Questions CSS -->
+
+1. Write the css to set the background color of div to light blue,
+ change the font color to dark blue, and set the fontsize to 18px.
+
+2. Create a class .box that sets a width of 200px, height of 150px, 
+a solid border of 2px, padding of 10px, and a margin of 20px.
+
+3. Use flexbox to center a div both vertically and horizontally inside a container. 
+The container has a class of .container and the div inside it has a class of .centered.
+
+4. Write a media query to change the background color of the body to light grey when the screen width is 600px or less.
+
+5. Style the link(anchor tag) to have red color by default and change it to green when hovered over it.
+
+6. Create a simple 2*2 grid layout with each cell having a width and height of 200px. add 6 childs.
+ The grid container should have a gap of 10px between the cell,
+  add some content inside each cell and place in center (horizontally and vertically).
