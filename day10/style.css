@@ -1,0 +1,144 @@
+/* CSS Animation allows you to create smooth transitions between different states of an element   */
+/* @keyframes and animation property  */
+/* @keyframes : defines what the animation looks at each stage, we can add percentage where animation will be applied at different stages */
+/* Animation Properties : These properties apply the animation to an element  and control its behavior  */
+
+/* .box {
+  width: 200px;
+  height: 150px;
+  border: 1px solid grey;
+  background-color: red;
+  margin: auto;
+  animation-name: changeColor;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+@keyframes changeColor {
+  0% {
+    background-color: red;
+    transform: translateX(0);
+  }
+  50% {
+    background-color: yellow;
+    transform: translateX(300px);
+  }
+  70% {
+    background-color: rgb(0, 30, 82);
+    transform: translateY(300px);
+  }
+  100% {
+    background-color: pink;
+    transform: translateX(-300px);
+  }
+} */
+
+/* <div class="box">&#10084;</div> */
+
+/* .box {
+  font-size: 10em;
+  color: red;
+  margin: 180px auto;
+  text-align: center;
+  animation: scale;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-delay: 3s;
+} */
+
+/* @keyframes rotate {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+    
+}
+ */
+
+/* @keyframes scale {
+  0%,
+  20%,
+  40%,
+  60%,
+  80%,
+  100% {
+    transform: scale(1);
+    background-color: green;
+  }
+  10%,
+  30%,
+  50%,
+  70%,
+  90% {
+    transform: scale(1.5);
+    background-color: blue;
+  }
+} */
+
+/* .ball {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 1px solid red;
+  background-color: rgb(239, 141, 22);
+  position: absolute;
+  bottom: 0;
+  left: 200px;
+  animation: bounce 2s infinite;
+ 
+}
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100%{
+        transform: translateY(0);
+    }
+    40%{
+        transform: translateY(-350px);
+    }
+    
+    60%{
+        transform: translateY(-100px);
+    }
+    
+} */
+
+body{
+    background-color: red;
+}
+
+.bus {
+  width: 200px;
+  height: 100px;
+  background-color: yellow;
+  border: 5px solid black;
+  border-radius: 10px;
+  position: absolute;
+  bottom: 15px;
+  animation: drive 1s infinite;
+  animation-timing-function: linear;
+}
+
+.wheel {
+  width: 40px;
+  height: 40px;
+  background-color: black;
+  border-radius: 50%;
+  position: absolute;
+  bottom: -20px;
+}
+
+.wheel-left {
+  left: 20px;
+}
+.wheel-right {
+  right: 20px;
+}
+
+@keyframes drive {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(100vw);
+  }
+}
