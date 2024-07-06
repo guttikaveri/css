@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Selectors: element, id, class, universal, attribute, pseudo , group */
+
+/* table,
+tr,
+th,
+td {
+  border: 2px solid grey;
+  padding: 10px;
+}
+table {
+  margin: auto;
+  width: 100%;
+  border-collapse: collapse;
+}
+tr:nth-child(even) {
+  background-color: bisque;
+} */
+
+/* ol{
+  list-style-type: decimal-leading-zero;
+  margin-left: 100px;
+  list-style-type: none;
+  list-style-type: symbols('>');
+  list-style: "";
+  list-style-image: url("./music.png");
+    
+} */
+
+/* li{
+    width: 10px;
+    height: 10px;
+} */
+
+/* Pseudo Classes and selectors  */
+
+a:active {
+  color: black;
+}
+
+input:focus {
+  background-color: blue;
+}
+a:hover {
+  background-color: blueviolet;
+}
+
+a:visited {
+  color: rgb(184, 186, 208);
+}
+
+div p:last-child {
+  font-weight: 800;
+  font-size: 30px;
+  color: blueviolet;
+}
+
+div p::first-letter {
+  font-size: 40px;
+}
+
+
+div p::before {
+  content: "Before Text";
+  color: yellowgreen;
+}
+div p::after {
+  content: "After Text";
+  color: yellowgreen;
+}
